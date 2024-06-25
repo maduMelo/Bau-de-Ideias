@@ -1,0 +1,39 @@
+.idea form .buttons {
+    width: 90%;
+
+    display: flex;
+    gap: 1rem;
+}
+
+.idea h2 {
+    display: inline-block;
+    padding: 0rem 34% 0rem 0rem;
+}
+
+.idea .top-part {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.idea .top-part button {
+    cursor: pointer;
+    border: none;
+
+    color: rgb(0, 184, 245);
+    background-color: white;
+
+    font-weight: bolder;
+}
+
+.idea .top-part button:hover {
+    color: white;
+    background-color: rgb(0, 184, 245);
+}
+
+.idea .top-part button:active {
+    color: white;
+    background-color: rgb(114, 219, 253);
+}
