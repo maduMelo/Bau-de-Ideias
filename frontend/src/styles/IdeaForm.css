@@ -1,0 +1,88 @@
+.idea-form, .idea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 1rem;
+
+    justify-content: center;
+}
+
+
+.idea-form form, .idea form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.idea-form .idea-title, .idea-form textarea, .idea .idea-title, .idea textarea {
+    min-width: 100%;
+    max-width: 100%;
+
+    resize: none;
+    outline: none;
+
+    font-size: .85rem;
+}
+
+.idea-form form label, .idea form label {
+    align-self: flex-start;
+    margin-bottom: .1rem;
+    margin-top: .2rem;
+}
+
+.idea-form .description, .idea .description {
+    height: 11rem;
+    border: none;
+}
+
+.idea-form .motivation, .idea .motivation {
+    height: 6rem;
+    border: none;
+}
+
+.idea-form .goal, .idea .goal {
+    height: 3rem;
+    border: none;
+}
+
+.idea-form .idea-title {
+    height: 1rem;
+    border: none;
+}
+
+.idea-form label:not(:nth-last-child(-n+2)), .idea label:not(:nth-last-child(-n+2)) {
+    color: rgb(124, 124, 124);
+}
+
+
+.idea-form .options, .idea .options {
+    display: flex;
+    gap: .6rem;
+    margin: .6rem;
+    margin-top: 1rem;
+}
+
+.idea-form button, .idea .buttons button {
+    width: 50%;
+    padding: .5rem;
+    margin: .8rem 0rem 1rem;
+    background-color: #af4c7a /* rgb(255, 152, 224)*/;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.idea-form button:hover, .idea .buttons button:hover {
+    background-color: /*rgb(255, 106, 210)*/#d15b92 ;
+}
+
+.idea-form button:active, .idea .buttons button:active {
+    background-color: /*rgb(255, 152, 224)*/ #f069a8;
+}
