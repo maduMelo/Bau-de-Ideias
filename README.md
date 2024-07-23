@@ -3,6 +3,8 @@
 ## Descrição
 O **Baú de Ideias** é uma aplicação que serve como um repositório para os usuários anotarem ideias inovadoras para soluções digitais. A aplicação permite aos usuários adicionar, modificar, visualizar e deletar ideias. Cada ideia possui perguntas norteadoras que ajudam o usuário a desenvolver a sua ideia inicial.
 
+https://github.com/user-attachments/assets/ed56999a-fe6f-4767-8150-ccb58c1f35ae
+
 ## Funcionalidades Principais
 - **CRUD de Ideias:** Adicionar, modificar, visualizar e deletar ideias.
 - **Perguntas Norteadoras:** Instigam o usuário a desenvolver melhor sua ideia.
